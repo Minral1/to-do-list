@@ -1,7 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-let nextId = 1;
-
 const loadFromLocalStorage = () => {
   try {
     const data = localStorage.getItem('todos');
